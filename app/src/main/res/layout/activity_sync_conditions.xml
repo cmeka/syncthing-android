@@ -59,7 +59,7 @@
                 android:orientation="vertical"
                 android:gravity="center_vertical">
 
-                <androidx.appcompat.widget.SwitchCompat
+                <com.google.android.material.materialswitch.MaterialSwitch
                     android:id="@+id/sync_on_wifi_title"
                     style="@style/Widget.Syncthing.TextView.Label.Details"
                     android:layout_width="match_parent"
@@ -88,7 +88,7 @@
                 android:orientation="vertical"
                 android:gravity="center_vertical">
 
-                <androidx.appcompat.widget.SwitchCompat
+                <com.google.android.material.materialswitch.MaterialSwitch
                     android:id="@+id/sync_on_whitelisted_wifi_title"
                     style="@style/Widget.Syncthing.TextView.Label.Details"
                     android:layout_width="match_parent"
@@ -123,7 +123,7 @@
                 android:orientation="vertical"
                 android:gravity="center_vertical">
 
-                <androidx.appcompat.widget.SwitchCompat
+                <com.google.android.material.materialswitch.MaterialSwitch
                     android:id="@+id/sync_on_metered_wifi_title"
                     style="@style/Widget.Syncthing.TextView.Label.Details"
                     android:layout_width="match_parent"
@@ -152,7 +152,7 @@
                 android:orientation="vertical"
                 android:gravity="center_vertical">
 
-                <androidx.appcompat.widget.SwitchCompat
+                <com.google.android.material.materialswitch.MaterialSwitch
                     android:id="@+id/sync_on_mobile_data_title"
                     style="@style/Widget.Syncthing.TextView.Label.Details"
                     android:layout_width="match_parent"
@@ -192,7 +192,7 @@
                     app:drawableStartCompat="@drawable/ic_battery_lightning_black_24dp"
                     android:focusable="false"/>
 
-                <androidx.appcompat.widget.AppCompatSpinner
+                <Spinner
                     android:id="@+id/sync_on_power_source_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

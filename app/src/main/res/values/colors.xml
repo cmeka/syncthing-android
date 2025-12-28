@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary">#03A9F4</color>
-    <color name="primary_dark">#0288D1</color>
+    <!-- Material Design 3 Light Theme Colors -->
+    <!-- Primary colors -->
+    <color name="md_theme_light_primary">#0288D1</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#BDE9FF</color>
+    <color name="md_theme_light_onPrimaryContainer">#001F2C</color>
+
+    <!-- Secondary colors -->
+    <color name="md_theme_light_secondary">#4F6168</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#D3E5ED</color>
+    <color name="md_theme_light_onSecondaryContainer">#0B1E25</color>
+
+    <!-- Tertiary colors -->
+    <color name="md_theme_light_tertiary">#5D5B7E</color>
+    <color name="md_theme_light_onTertiary">#FFFFFF</color>
+    <color name="md_theme_light_tertiaryContainer">#E3DFFF</color>
+    <color name="md_theme_light_onTertiaryContainer">#1A1937</color>
+
+    <!-- Error colors -->
+    <color name="md_theme_light_error">#BA1A1A</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_errorContainer">#FFDAD6</color>
+    <color name="md_theme_light_onErrorContainer">#410002</color>
+
+    <!-- Surface colors - Light mode uses white/gray tonal palette -->
+    <color name="md_theme_light_background">#FFFBFE</color>
+    <color name="md_theme_light_onBackground">#1A1B1E</color>
+    <color name="md_theme_light_surface">#FFFBFE</color>
+    <color name="md_theme_light_onSurface">#1A1B1E</color>
+    <color name="md_theme_light_surfaceVariant">#DFE2EB</color>
+    <color name="md_theme_light_onSurfaceVariant">#43474E</color>
+    <color name="md_theme_light_outline">#74777F</color>
+    <color name="md_theme_light_outlineVariant">#C4C6CF</color>
+
+    <!-- Inverse surface for elevated elements -->
+    <color name="md_theme_light_inverseSurface">#2F3033</color>
+    <color name="md_theme_light_inverseOnSurface">#F1F0F4</color>
+
+    <!-- Inverse primary -->
+    <color name="md_theme_light_inversePrimary">#81D4FF</color>
+
+    <!-- Surface tint - the primary color used for tonal surfaces -->
+    <color name="md_theme_light_surfaceTint">#0288D1</color>
+
+    <!-- Legacy colors for compatibility -->
+    <color name="primary">@color/md_theme_light_primary</color>
+    <color name="primary_dark">#0277BD</color>
     <color name="accent">#FFC107</color>
     <color name="divider">#1F000000</color>
 
@@ -16,42 +62,7 @@
     <color name="light_blue">#4fc4ff</color>
 
     <!-- FirstStartActivity welcome wizard start -->
-    <!-- Screens background color-->
-    <color name="bg_screen1">#3395ff</color>
-    <color name="bg_screen2">#20d2bb</color>
-    <color name="bg_screen3">#c873f4</color>
-    <color name="bg_screen4">#5e7c8b</color>
-    <color name="bg_screen5">#3d4db7</color>
-
-    <!-- dots inactive colors -->
-    <color name="dot_dark_screen1">#2278d4</color>
-    <color name="dot_dark_screen2">#14a895</color>
-    <color name="dot_dark_screen3">#a854d4</color>
-    <color name="dot_dark_screen4">#3e5c6b</color>
-    <color name="dot_dark_screen5">#1d2d97</color>
-
-    <!-- dots active colors -->
-    <color name="dot_light_screen1">#93c6fd</color>
-    <color name="dot_light_screen2">#8cf9eb</color>
-    <color name="dot_light_screen3">#e4b5fc</color>
-    <color name="dot_light_screen4">#8eacbb</color>
-    <color name="dot_light_screen5">#6d7de7</color>
-
-    <array name="array_dot_active">
-        <item>@color/dot_light_screen1</item>
-        <item>@color/dot_light_screen2</item>
-        <item>@color/dot_light_screen3</item>
-        <item>@color/dot_light_screen4</item>
-        <item>@color/dot_light_screen5</item>
-    </array>
-
-    <array name="array_dot_inactive">
-        <item>@color/dot_dark_screen1</item>
-        <item>@color/dot_dark_screen2</item>
-        <item>@color/dot_dark_screen3</item>
-        <item>@color/dot_dark_screen4</item>
-        <item>@color/dot_dark_screen5</item>
-    </array>
+    <color name="bg_screen4">#0288D1</color>
     <!-- FirstStartActivity welcome wizard end -->
 
     <!-- MainActivity start -->
