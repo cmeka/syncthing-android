@@ -40,8 +40,8 @@
         <!-- Custom Surface Container Colors -->
 
         <!-- Status bar -->
-        <item name="android:statusBarColor" tools:targetApi="m">?attr/colorSurfaceContainer</item>
-        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:statusBarColor">?attr/colorSurfaceContainer</item>
+        <item name="android:windowLightStatusBar">false</item>
         <item name="android:windowLightNavigationBar" tools:ignore="NewApi">false</item>
     </style>
 

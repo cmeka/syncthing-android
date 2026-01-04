@@ -192,7 +192,7 @@
                     app:drawableStartCompat="@drawable/ic_battery_lightning_black_24dp"
                     android:focusable="false"/>
 
-                <Spinner
+                <androidx.appcompat.widget.AppCompatSpinner
                     android:id="@+id/sync_on_power_source_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

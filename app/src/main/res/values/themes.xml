@@ -63,9 +63,9 @@
         <item name="android:dialogCornerRadius" tools:targetApi="p">@dimen/dialog_corner_radius</item>
         <item name="dialogCornerRadius">@dimen/dialog_corner_radius</item>
 
-        <item name="android:statusBarColor" tools:targetApi="m">?attr/colorSurface</item>
+        <item name="android:statusBarColor">?attr/colorSurface</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
-        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightStatusBar">true</item>
 
         <item name="android:fitsSystemWindows">true</item>
     </style>
