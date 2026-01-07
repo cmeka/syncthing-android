@@ -617,6 +617,10 @@ public class SettingsActivity extends SyncthingActivity {
                                 .show();
                     }
                     break;
+                case Constants.PREF_DYNAMIC_COLORS:
+                    getAppRestartConfirmationDialog(getActivity())
+                            .show();
+                    break;
             }
             return true;
         }
